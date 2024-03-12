@@ -5,7 +5,7 @@ import { RiArrowRightUpLine } from 'react-icons/ri';
 
 const Navbar: React.FC = () => {
     return (
-        <nav className="bg-transparent mt-2  p-6 md:p-4 fixed top-0 w-full z-10">
+        <nav className="bg-transparent mt-2  p-6 md:p-4 fixed top-0 w-screen z-10">
             <div className="container mx-auto flex justify-between items-center">
 
 
