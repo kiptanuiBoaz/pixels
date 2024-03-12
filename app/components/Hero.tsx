@@ -36,17 +36,17 @@ export const Hero = () => {
                             </div>
 
                         </div>
-                        <div className='flex ' >
-                            <p className="bg-white pr-1 text-gray-900 rounded-tr-3xl text-3xl md:text-6xl font-bold md:pr-8">
+                        <div className='flex' >
+                            <p className="bg-white pr-2 mb-[-8px] pr-1 pb-0 text-gray-900 rounded-tr-3xl text-3xl md:text-6xl font-bold md:pr-8">
                                 Unlocking
                             </p>
                             <div className="px-4 py-auto md:py-4   flex space-x-1 lg:space-x-3 rounded-bl-3x ml-[-4px] text-gray-800 px-2">
-                                <button className="bg-white px-2 lg:px-4  rounded-3xl my-2 py-auto  flex items-center justify-center">
-                                    Contact
+                                <button className="bg-white px-2 lg:px-4  rounded-3xl my-2 py-auto h-8 md:h-auto flex items-center justify-center">
+                                    <span className='pt-0.5 md:pt-0'>Contact</span>
                                     &nbsp;&nbsp;
                                     <RiArrowRightUpLine size={20} />
                                 </button>
-                                <div className="p-1 lg:p-2 text-gray-800 bg-white rounded-full">
+                                <div className="p-1 px-1.5  h-8 md:h-auto my-2 lg:p-2 text-gray-800 bg-white rounded-full">
                                     <IoArrowDown size={20} />
 
                                 </div>
