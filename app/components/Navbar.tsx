@@ -5,20 +5,20 @@ import { RiArrowRightUpLine } from 'react-icons/ri';
 
 const Navbar: React.FC = () => {
     return (
-        <nav className="bg-transparent mt-2  p-4 fixed top-0 w-full z-10">
+        <nav className="bg-transparent mt-2  p-6 md:p-4 fixed top-0 w-full z-10">
             <div className="container mx-auto flex justify-between items-center">
 
 
                 <div className="px-4 py-2 hidden lg:flex space-x-4 bg-white rounded-3xl">
-                    <Link className="text-gray-700 hover:text-gray-950  hover:font-bold" href="/home">
+                    <Link className="text-gray-700 hover:text-gray-950  hover:underline" href="/home">
                         Home
                     </Link>
 
-                    <Link className="text-gray-800" href="/contact">
+                    <Link className="text-gray-700 hover:text-gray-950 hover:underline text-gray-800" href="/contact">
                         Contact
                     </Link>
-                    <Link className="text-gray-800" href="/contact">
-                        Contact
+                    <Link className="text-gray-700 hover:text-gray-950 hover:underline text-gray-800" href="/contact">
+                        About
                     </Link>
                 </div >
 
@@ -34,7 +34,7 @@ const Navbar: React.FC = () => {
                         &nbsp;&nbsp;
                         <RiArrowRightUpLine style={{ color: "rgb(31 41 55)" }} className='text-gray-800' size={20} />
                     </button>
-                    <div className="p-1 lg:p-2 text-gray-800 bg-white rounded-3xl">
+                    <div className="p-1 lg:p-2 text-gray-800 bg-white rounded-3xl cursor-pointer">
                         <BiMenuAltLeft size={20} />
                     </div>
                 </div>
