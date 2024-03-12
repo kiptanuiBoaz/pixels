@@ -9,7 +9,7 @@ import { RiArrowRightUpLine } from 'react-icons/ri'
 
 export const Hero = () => {
     return (
-        <section className='p-4 bg-white  '>
+        <section className='p-3 md:p-4 bg-white w-full  '>
 
             <div className="bg-cover bg-center h-auto  bg-[url('/pixel-bg.jpg')] rounded-t-3xl">
 
@@ -37,7 +37,7 @@ export const Hero = () => {
 
                         </div>
                         <div className='flex' >
-                            <p className="bg-white pr-2 mb-[-8px] pr-1 pb-0 text-gray-900 rounded-tr-3xl text-3xl md:text-6xl font-bold md:pr-8">
+                            <p className="bg-white pr-2 mb-[-8px] pr-1 pb-0 text-gray-900 rounded-tr-3xl text-2xl md:text-6xl font-bold md:pr-8">
                                 Unlocking
                             </p>
                             <div className="px-4 py-auto md:py-4   flex space-x-1 lg:space-x-3 rounded-bl-3x ml-[-4px] text-gray-800 px-2">
@@ -53,7 +53,7 @@ export const Hero = () => {
                             </div>
                         </div>
 
-                        <p className="bg-white  py-2 rounded-tr-3xl text-gray-900 text-3xl md:text-6xl font-bold "> Digital Excellence</p>
+                        <p className="bg-white  py-2 rounded-tr-3xl text-gray-900 text-2xl md:text-6xl font-bold "> Digital Excellence</p>
 
                     </div>
 
